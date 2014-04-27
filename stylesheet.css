@@ -1,0 +1,466 @@
+*{
+outline: none;
+list-style: none;
+}
+
+
+
+body {
+	margin: 0;
+	font-family:arial;
+	font-size:20px;
+	color: #f15727;
+}
+
+
+a {
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	color:#fff;
+	font-weight: bold;
+}
+
+#menu a:hover{
+	color: yellow;
+}
+
+header {
+	
+	display:block;
+	margin: auto;
+	height: 460px;
+	background-color:#feefcc;
+	position:relative;
+	z-index: 1;
+	
+
+}
+
+.menucontainer {
+	
+		width: 100%;
+		height: 55px;
+		background-color: #f15727;
+		position:fixed;
+		z-index: 999;
+		
+		}
+.menucontent {
+		width:940px;
+		margin:0px;
+		padding: 0px;	
+		
+}
+
+#menu ul li {
+	list-style: none;
+	display:inline-block;
+	float: left;
+	padding:0px 58px;
+	margin:0 auto;
+}
+
+#menu {
+
+		width: 940px;
+		padding:0px;
+		margin: 0 auto;
+		background-color: #f15727;
+		vertical-align: middle;
+		
+
+}
+
+	
+#logo {
+	float:left;
+	width: 100px;
+	height: 100px;
+	margin: -10px 0px 0px 0px;
+	display: inline-block;
+	z-index: 990;
+}
+
+.header_container {
+	width:940px;
+	height: 460px;
+	margin:0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+#casal {
+		position: absolute;
+		top:27%;
+		left: 60%;
+		margin:0 auto;
+		padding: 0px;
+
+}
+
+#data {
+		position: absolute;
+		top:20%;
+		left: 0%;
+		margin:0 auto;
+		padding: 0px;
+}
+
+.nome_casal {
+		
+		height: 300px;
+		width: 940px;
+		padding: 0px;
+		margin: auto;
+		position: relative;
+
+}
+
+#nomecasal {
+	display: block;
+	margin: 0 auto;
+	padding: 103px;
+	width: 600px;
+	height: 94px;
+}
+
+.RSVP {
+
+	height: 240px;
+	width: 940px;
+	padding-top: 90px;
+	margin: auto;
+	position: relative;
+
+}
+
+#o_amor {
+
+	display: block;
+	margin: 0 auto;
+	margin-top: 0px;
+	padding: 0px;
+	width: 387px;
+	height: 134px;
+	padding-top: 40px;
+	padding-bottom: 40px;	
+}
+
+.RSVP_content {
+
+width: 940px;
+height: auto;
+margin:0 auto;
+padding: 0;
+margin-bottom: 200px;
+}
+
+.RSVP_title {
+
+	display: inline-block;
+	float: left;
+	font-family: arial, sans serif;
+	font-size: 65px;
+	font-weight: bold;
+	color: #f5822f;
+	margin:0px;
+	padding:0px;
+
+}
+
+.RSVP_sub {
+	
+	display: inline-block;
+	width: 690px;
+	float: right;
+	font-family: arial, sans serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #f15727;
+	padding-left: 33px;
+	margin-top: 15px;
+	border-left: 1px solid #f5822f;
+
+}
+
+.inputName {
+		float:left;
+		width: 530px;
+		height: 46px;
+		padding-left: 10px;
+		border: 2px solid #f15727;
+		font-family:Arial, sans serif;
+		font-size:20px;
+		font-weight: bold;
+		color: #f15727;
+
+}
+
+.inputEmail {
+		float:right;
+		width: 370px;
+		height: 46px;
+		padding-left: 10px;
+		border: 2px solid #f15727;
+		font-family:Arial, sans serif;
+		font-size:20px;
+		font-weight: bold;
+		color: #f15727;
+
+}
+
+.label {
+
+	float:left;
+	font-family:Arial, sans serif;
+	font-size:20px;
+	color: #f15727;
+	margin-top: 20px;
+
+}
+
+.inputNumero {
+		float:left;
+		width: 34px;
+		height: 46px;
+		padding-left: 10px;
+		border: 2px solid #f15727;
+		font-family:Arial, sans serif;
+		font-size:20px;
+		font-weight: bold;
+		color: #f15727;
+		margin-top: 20px;
+		margin-left: 20px;
+
+}
+
+.btn_presenca {
+
+		float: right;
+		width: 595px;
+		height: 50px;
+		background: #f15727;
+		font-family: Arial, sans serif;
+		font-size: 20px;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+		margin-top: 20px;
+		border: 0px;
+
+}
+
+.btn_presenca:hover {
+	
+	background: #da410e;
+
+}
+
+.pombinhos {
+
+	width: 940px;
+	margin:0 auto;
+}
+
+#os_pombinhos {
+
+		width: 940px;
+		height: 324px;
+		margin: 0 auto;
+		margin-top: 0px;
+		padding-top: 110px;
+
+
+}
+
+.container_fotos {
+	width: 960px;
+	height: 620px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 400px;
+
+}
+
+.container_fotos a {
+
+	float: left;
+	width: 220px;
+	height: 218px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	display: block;
+	position: relative;
+
+}
+
+.container_fotos a section {
+	width: 220px;
+	height: 218px;
+	display: block; 
+	background-image: url(img/more.png); 
+	background-position: bottom; 
+	background-repeat: no-repeat; 
+	background-color: rgba(245, 130, 47, 0.8);
+	position: absolute;
+	opacity: 0;
+	transition: all ease-in 0.3s ;
+	
+	}
+
+.container_fotos a:hover section {
+	display: block;
+	background-position: center;
+	opacity: 1;
+
+}
+
+.boximage a:hover {
+
+	display: block;
+}
+
+
+.hashtag {
+
+	width: 940px;
+	height: 200px;
+	margin: 0 auto;
+
+}
+
+#fotos_instagram {
+	width: 940px;
+	height: 39px;
+	margin-top: 0 auto;
+
+}
+
+#text_insta {
+
+	float:left;
+}
+
+.instagram {
+	
+	width: 940px;
+	height: 300px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+	
+}
+
+.lista {
+
+	width: 940px;
+	height: 500px;
+	margin: auto;
+	padding-top: 140px;
+
+}
+
+#img-lista {
+	
+	width: 940px;
+	height: 39px;
+	margin: auto;
+	
+
+}
+
+.lista a {
+
+	width: 940px;
+	height: 50px;
+	padding-top: 14px;
+	background-color: #f15727;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: block;
+	font-weight: bold;
+	font-size: 27px;
+
+}
+
+.lista a:hover{ background: #da410e; }
+
+
+.cerimonia {
+
+	width: 940px;
+	margin: auto;
+	padding-top: 130px;
+}
+
+#img-cerimonia {
+	
+	width: 940px;
+	height: 39px;
+	margin: auto;
+
+}
+
+.box_data {
+		width: 620px;
+		height: 105px;
+		padding-top: 10px;
+		position: relative;
+		margin: 0 auto;
+		margin-bottom: -61px;
+		margin-top: 10px;
+		text-align: center;
+		background-color: #f5822f;
+		color:#fff;
+		font-weight: bold;
+	
+
+}
+
+.linha_div {
+
+	width: 100%;
+	height: 5px;
+	margin: 0 auto;
+	background-color: #f5822f;
+
+}
+
+iframe {
+
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+
+footer {
+		width: 100%;
+		height: 500px;
+		background-color: #f15727;
+		margin: 0 auto;
+		margin-top: -10px;
+}
+
+.assinatura_site {
+
+	color:#fff;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.assinatura_creditos {
+
+	color:#fff;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 40px;
+}
