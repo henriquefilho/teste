@@ -327,7 +327,7 @@ margin-bottom: 200px;
 .hashtag {
 
 	width: 940px;
-	height: 200px;
+	height: 135px;
 	margin: 0 auto;
 
 }
@@ -347,18 +347,26 @@ margin-bottom: 200px;
 .instagram {
 	
 	width: 940px;
-	height: 300px;
+	height: 450px;
 	margin: 0 auto;
-	margin-bottom: 200px;
+	
+	
+}
+
+#instafeed li {
+	float: left;
+	margin: 0;
+	padding: 5px 0 0 5px;
 	
 }
 
 .lista {
 
 	width: 940px;
-	height: 500px;
+	height: 300px;
 	margin: auto;
 	padding-top: 140px;
+	margin-top:140px;
 
 }
 
@@ -465,3 +473,4 @@ footer {
 	text-align: center;
 	padding-top: 40px;
 }
+

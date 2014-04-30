@@ -7,7 +7,7 @@
  		<title>CASAMENTO DANILO E LORETA</title>
 		
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
- 		<script src="js/instagram.min.js"></script>
+ 		<script type="text/javascript" src="js/instafeed.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
         <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
         <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
@@ -28,16 +28,39 @@
 			    }
 			  });
 			});
-	</script>
+		</script>
 
-</head>
+		<script>
+		
+		   		$(document).ready(function() {
+		       	$('.fancybox').fancybox();
+		   		});
+		
+		</script>
+
+
+		<script type="text/javascript">
+    
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'daniloeloreta',
+        limit: '18',
+        links: false,
+        resolution: 'standard_resolution',
+        clientId: 'e5e555da00124f6790c1d29fac898c09',
+        template: '<li> <a class="fancybox" rel="instagram" href="{{image}}" > <img src="{{image}}" width="150" height="150" /> </a> </li>'
+        
+   	});
+
+    feed.run();
+
+		</script>
+
+
+	</head>
 
  		<body>
-			<script>
-        		$(document).ready(function() {
-            	$('.fancybox').fancybox();
-        		});
-    		</script>
+			
 
 		<header id="header">
 	 	<section class="menucontainer">
@@ -108,53 +131,55 @@
 	 		
 	 			<a href="img/full/casal01.jpg" class="fancybox" title="Danilo e Loreta">
 	 				<section class="boximage"></section>
-	 					<img class="fotos" src="img/casal01.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 					<img class="fotos" src="img/casal01.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 	 		
 	 			 <a href="img/full/casal02.jpg" class="fancybox" title="Danilo e Loreta">
 	 			 	<section class="boximage"></section>
-	 			 		<img class="fotos" src="img/casal02.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 			 		<img class="fotos" src="img/casal02.jpg" alt="Casamento Danilo e Loreta" width="220" height="218 "> </a>
 	 		
 	 			<a href="img/full/casal03.jpg" class="fancybox" title="Danilo e Loreta">
 	 				<section class="boximage"></section>
-	 					<img class="fotos" src="img/casal03.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 					<img class="fotos" src="img/casal03.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 	 		
 	 			<a href="img/full/casal04.jpg" class="fancybox" title="Danilo e Loreta">
 	 				<section class="boximage"></section>
-	 					<img class="fotos" src="img/casal04.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 					<img class="fotos" src="img/casal04.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 
 	 					<a href="img/full/casal05.jpg" class="fancybox" title="Danilo e Loreta">
 	 				<section class="boximage"></section>
-	 					<img class="fotos" src="img/casal05.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"/></a>
+	 					<img class="fotos" src="img/casal05.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 	 		
 	 			 <a href="img/full/casal06.jpg" class="fancybox" title="Danilo e Loreta">
 	 			 	<section class="boximage"></section>
-	 			 		<img class="fotos" src="img/casal06.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 			 		<img class="fotos" src="img/casal06.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 	 		
 	 			<a href="img/full/casal07.jpg" class="fancybox" title="Danilo e Loreta">
 	 				<section class="boximage"></section>
-	 					<img class="fotos" src="img/casal07.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 					<img class="fotos" src="img/casal07.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 	 		
 	 			<a href="img/full/casal08jpg" class="fancybox" title="Danilo e Loreta">
 	 				<section class="boximage"></section>
-	 					<img class="fotos" src="img/casal08.jpg" alt="Casamento Danilo e Loreta" width="220" height="218"></a>
+	 					<img class="fotos" src="img/casal08.jpg" alt="Casamento Danilo e Loreta" width="220" height="218" > </a>
 	 		
 	 			 		
 	 	</section>
 
 	 	<section class="hashtag">
 
-	 		<img id="fotos_instagram" src="img/hashtag.jpg">
+	 		<img id="fotos_instagram" src="img/hashtag.jpg" alt="fotos instagram">
 
 	 		<p id="text_insta"> Tire sua foto via instagram com a hashtag <strong>#daniloeloreta</strong> <br> e automaticamente sua foto aparece aqui em nosso mural. </p>
 	 		
 	 	</section>
 		
-		<section class="instagram"></section>
+		<section id="instafeed" class="instagram">
+
+		</section>
 
 		
 		</a> <section id="lista" class="lista">
 
-			<img id="img_lista" src="img/lista.jpg">
+			<img id="img_lista" src="img/lista.jpg" alt="lista de casamento">
 			<p> Acesse nossa lista de casamento para presentear esse lindo casal que somos, vamos ficar felizes <br> com qualquer item que desejamos. O que importa é sua presença em nossos corações.
 
 			<a href="http://www.extra.com.br/Site/ListaGerenciadaLandingPage.aspx?idListaCompra=345431&amp;idCategoria=&amp;idDepartamento=&amp;Ordenacao=0&amp;paginaAtual=1&amp;numPorPagina=15" target="_blank">clique aqui e acesse a lista</a>
@@ -162,7 +187,7 @@
 		</section>
 	 
 		
-		<section id="cerimonia" class="cerimonia">
+		<section id="cerimonia" class="cerimonia" alt="cerimônia de casamento">
 
 			<img id="img_cerimonia" src="img/cerimonia.jpg">
 
